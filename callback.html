@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'none'; img-src 'none'; form-action 'none'; base-uri 'none'; object-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Retorno — Casa Prática VIP</title>
+<link rel="stylesheet" href="callback.css">
+<script src="callback.js" defer></script>
+</head>
+<body>
+<main>
+ <p class="brand">CASA PRÁTICA VIP</p>
+ <h1 id="title">Retorno da autorização</h1>
+ <p id="message" role="status">Conferindo o retorno recebido…</p>
+ <section id="result" hidden>
+  <label for="payload">Retorno para o assistente local</label>
+  <textarea id="payload" readonly rows="6" spellcheck="false" autocomplete="off"></textarea>
+  <button id="copy" type="button">Copiar retorno</button>
+  <p>Volte à aba <strong>Conectar Mercado Livre</strong> do seu computador, cole no campo “Retorno recebido” e clique em “Concluir autorização”.</p>
+  <p class="note">Este retorno é temporário. Não envie por mensagens nem compartilhe capturas. Esta página nunca pede Client Secret, senha ou token de acesso.</p>
+  <button id="clear" class="secondary" type="button">Apagar desta página</button>
+ </section>
+ <p class="note">O n8n continua privado. Esta página não se conecta ao seu computador e não consulta anúncios.</p>
+ <noscript>Ative JavaScript para processar o retorno. Não copie o endereço da página para mensagens.</noscript>
+</main>
+</body>
+</html>
